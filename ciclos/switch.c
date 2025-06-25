@@ -17,6 +17,7 @@ main()
             printf("Elegiste el caso 3\n");
             break;
         default:
+            printf("Elige una operacion valida\n");
             break;
     }
 }
