@@ -15,7 +15,7 @@ int main()
     if (matriz == NULL)
     {
         fprintf(stderr, "Error al asignar memoria para las filas.\n");
-        return 1;
+        return 1;sadas
     }
 
     // PASO 2: Asignar memoria para las columnas de cada fila
