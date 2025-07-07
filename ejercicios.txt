@@ -1,0 +1,119 @@
+🔹 Nivel 1: Arrays y Ciclos
+Ejercicio 1: Suma de elementos de un array
+Leer un array de N enteros.
+
+Calcular y mostrar la suma de sus elementos.
+
+Ejercicio 2: Búsqueda de un elemento
+Leer un array de N enteros.
+
+Leer un número a buscar.
+
+Mostrar si el número está o no en el array.
+
+Ejercicio 3: Invertir un array
+Leer un array de N enteros.
+
+Mostrarlo en orden inverso.
+
+🔹 Nivel 2: Modificación de Arrays
+Ejercicio 4: Ordenar un array (sin qsort)
+Leer un array de N enteros.
+
+Ordenarlo de menor a mayor usando un algoritmo manual (Bubble Sort recomendado).
+
+Mostrar el array ordenado.
+
+Ejercicio 5: Eliminar un elemento de un array
+Leer un array de N enteros.
+
+Eliminar todas las ocurrencias de un valor específico.
+
+Mostrar el array resultante.
+
+🔹 Nivel 3: Punteros Básicos
+Ejercicio 6: Intercambiar dos variables usando punteros
+Leer dos variables.
+
+Crear una función que reciba sus punteros y las intercambie.
+
+Ejercicio 7: Sumar dos arrays usando punteros
+Leer dos arrays del mismo tamaño.
+
+Usar punteros para sumar elemento por elemento.
+
+Mostrar el array resultado.
+
+🔹 Nivel 4: Matrices (Arrays Bidimensionales)
+Ejercicio 8: Sumar elementos de una matriz
+Leer una matriz de M x N enteros.
+
+Calcular la suma total de sus elementos.
+
+Ejercicio 9: Suma por filas
+Mostrar la suma de cada fila por separado.
+
+Ejercicio 10: Matriz transpuesta
+Leer una matriz de M x N.
+
+Calcular y mostrar su transpuesta.
+
+🔹 Nivel 5: Memoria Dinámica
+Ejercicio 11: Crear array dinámico
+Leer el tamaño del array en tiempo de ejecución.
+
+Reservar memoria con malloc.
+
+Leer los elementos y calcular la suma.
+
+Ejercicio 12: Reemplazar realloc
+Leer un array dinámico.
+
+Pedir al usuario que incremente su tamaño.
+
+Redimensionar con realloc y continuar llenando el array.
+
+🔹 Nivel 6: Punteros Avanzados
+Ejercicio 13: Crear función que modifique un array por puntero
+Leer un array.
+
+Crear una función que reciba el puntero y modifique todos sus valores multiplicándolos por 2.
+
+Ejercicio 14: Acceso a matrices usando punteros
+Leer una matriz.
+
+Mostrar cada elemento usando notación de puntero (*(*(matriz + i) + j)).
+
+🔹 Nivel 7: Desafío de Lógica
+Ejercicio 15: Buscar el valor más grande y su posición (punteros)
+Leer un array.
+
+Crear una función que devuelva el valor máximo y su posición usando punteros.
+
+Ejercicio 16: Eliminar múltiplos de un número
+Leer un array.
+
+Eliminar todos los múltiplos de un valor dado.
+
+Mostrar el array resultante usando memoria dinámica (realloc si quieres reducir el tamaño).
+
+🔹 Nivel 8: Desafío Final
+Ejercicio 17: Crear un programa de gestión de estudiantes
+Crear un array dinámico de estructuras Student (nombre y nota).
+
+Permitir agregar estudiantes, mostrar estudiantes y calcular promedio.
+
+Usar memoria dinámica (malloc y realloc).
+
+Todo sin librerías externas.
+
+✅ 📋 Recomendaciones para el taller:
+Todos los ejercicios deben ser desarrollados sin librerías externas.
+
+Solo se permiten stdio.h, stdlib.h y string.h.
+
+Reforzar el uso correcto de punteros y memoria dinámica.
+
+Proponer siempre al menos una solución con punteros directos.
+
+Revisar siempre si la memoria dinámica fue correctamente asignada (verificar malloc != NULL).
