@@ -61,7 +61,7 @@ void enrollmentStatistics(const char *file_name)
         fread(&students[i], sizeof(Student), 1, file);
     }
 
-    Courses *course = malloc(sizeof(course) * course_count);
+    Courses *course = malloc(sizeof(Courses) * course_count);
     if (course == NULL)
     {
         perror("Error allocating memory for courses");
@@ -88,9 +88,11 @@ void enrollmentStatistics(const char *file_name)
         fread(&enrollments[i], sizeof(Enrollment), 1, file);
     }
 
-    printf("%-6s %-10s %-18s %-20s %-12s %-14s\n", "Year","Semester","Male Undergraduate", "Female Undergraduate", "Male Grad", "Female Grad");
+    printf("Enrollment Statistics:\n\n");
 
-    for (uint32_t year = 2010; year <= 2025; year++)
+    printf("%-6s %-10s %-18s %-20s %-12s %-14s\n", "Year","Semester","Male Undergrad", "Female Undergrad", "Male Grad", "Female Grad");
+
+    for (uint32_t year = 2020; year < 2030; year++)
     {
         for (uint32_t semester = 1; semester <= 2; semester++)
         {

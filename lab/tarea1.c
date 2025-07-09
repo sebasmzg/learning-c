@@ -49,7 +49,7 @@ void mostrarRegistros(const char *nombre_archivo, int edad_minima, int edad_maxi
             break;
         }
 
-        if (student.age >= edad_maxima && student.age <= edad_maxima)
+        if (student.age >= edad_minima && student.age <= edad_maxima)
         {
             const char *gender = (student.flags & 0x80) ? "Mujer" : "Hombre";
             printf("%-25s %-5u %-8s\n", student.student_name, student.age, gender);
