@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <stdint.h>
 
+#pragma pack(push, 1)
+
 typedef struct
 {
     uint16_t magic_string;
@@ -17,6 +19,8 @@ typedef struct
     char student_name[23];
     uint32_t age;
 } Student;
+
+#pragma pack(pop)
 
 void mostrarRegistros(const char *nombre_archivo, int edad_minima, int edad_maxima)
 {

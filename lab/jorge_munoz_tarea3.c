@@ -94,7 +94,7 @@ void enrollmentStatistics(const char *file_name)
 
     for (uint32_t year = 2020; year < 2030; year++)
     {
-        for (uint32_t semester = 1; semester <= 2; semester++)
+        for (uint32_t semester = 1; semester <= 4; semester++)
         {
             uint32_t male_undergrad = 0, female_undergrad = 0;
             uint32_t male_grad = 0, female_grad = 0;
@@ -107,7 +107,7 @@ void enrollmentStatistics(const char *file_name)
                 {
                     for (uint32_t j = 0; j < student_count; j++)
                     {
-                        if (students[j].student_id == enrollments[i].student_id)
+                        if (students[j].student_id == enrollments[i].student_id && !student_counted[j])
                         {
                             student_counted[j] = 1;
 
